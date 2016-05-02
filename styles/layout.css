@@ -1,0 +1,193 @@
+
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+body{background:#000000 url(../images/originals/backg.jpg); margin:20px; padding:0; font-size:20px; font-family:"Agency fb", Times, serif;
+ background-repeat:no-repeat; background-position:top; background-attachment:fixed;}
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; clear:both;}
+
+a{outline:none; text-decoration:none;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.trans{background-color:#FFFFFF;position:center; z-index:1;filter:alpha(opacity=90);-moz-opacity:.90;opacity:.90 }
+.row1, .row1 a{color:#00A0D4; background-color:#333333;}
+.row2{color:#979797; background-color:#FFFFFF;}
+.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row2 a:hover{color:#00A0D4; background-color:#FFFFFF;}
+.row3, .row3 a{color:#919191; background-color:#FFFFFF;}
+.row3, .row3 #footer a{color:#919191; background-color:#333333;}
+.row3, .row3 a:hover{color:#FF9900; background-color:#FFFFFF;}
+.row3, .row3 b{color:#919191; background-color:#FFFFFF;}
+.row4{color:#FF9900; font-size:55px; background-color:#FFFFFF}
+.row5{color:#FF9900; background-color:#FFFFFF; font-size:25px;}
+.row5 a:hover{color:#919191; background-color:#FFFFFF; font-size:25px;}
+.row6 h2{color:#FFFFFF; font-size:65px; font-style:normal; text-align:center; padding: 20px 0 20px 0;}
+.row6 h2 a:hover{color:#FF9900; font-size:65px; font-style:normal; text-align:center; padding: 20px 0 20px 0;}
+
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#homepage, #login, #header, #container, #footer, #contact, #copyright{display:block; width:1120px; margin:auto; padding:0; list-style:none;}
+
+@font-face{
+   font-family:"famig-webfont";
+   src: url("famig-webfont.eot");
+   src: url("famig-webfont.eot?#amofamig-webfont") format("embedded-opentype"),
+        url("famig-webfont.woff") format("woff"),
+        url("famig-webfont.ttf") format("truetype"),
+        url("famig-webfont.svg#family_guyregular") format("svg");
+}
+
+h1, h4, h6{ margin:0; padding:0; font-size:50px; font-family: "famig-webfont", Arial, sans-serif; text-shadow: 3px 3px 3px #000000;}
+h2, h3, h4{margin:0; padding:0; font-size:32px; font-weight:normal; font-style:"Agency fb"; line-height:normal;} 
+h5, h6{margin:0; padding:0; font-size:24px; font-weight:normal; font-style:"Agency fb"; line-height:normal;}
+
+.one_quarter{display:block; float:left; margin:0 15px 0 0; font-family:"Agency fb", Times, serif; font-size:24px;}
+.one_quarter1{display:block;  float:left; margin-left: 75px;  font-family:"Agency fb", Times, serif; font-size:24px;}
+.two_quarter, .three_quarter{display:block; float:left; margin:0 20px 0 0; font-family:"Agency fb", Times, serif; font-size:24px;}
+.one_quarter{width:460px;}
+.two_quarter{width:470px;}
+
+
+.one_third, .two_third, .three_third{display:block; float:left; margin:30px 30px 0 50px;}
+.one_third{width:300px;}
+.two_third{width:630px;}
+
+
+.lastbox{margin-right:0;}
+
+/*----------------------------------------------Header-------------------------------------*/
+#header{ width:1120px; margin:20px auto;}
+
+#header #hgroup{float:left; margin:30px;}
+#header #hgroup h1, #header #hgroup h2{font-weight:normal; font-style:normal; text-transform:none; text-shadow:1px 1px 2px #000000; }
+#header #hgroup h1{font-size:55px;}
+#header #hgroup h2{font-size:35px;}
+
+#header nav{display:block; float:right; margin:90px 0 0 0; padding:15px 15px; color:#C0BAB6; background-color:#232323;}
+#header nav ul{padding:0 0px;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li.last{margin:0px;}
+#header nav li a{color:#C0BAB6; background-color:#232323;  }
+#header nav li a:hover{color:#FF9900; background-color:#232323;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+#mainlogo, #login {display:block; width:1120px; margin:auto; padding:0; list-style:none; } 
+
+#mainlogo{padding-left:190px; margin-top:0px;} 
+#login{padding-left:480px; margin-top:0;}
+#container{padding:10px;}
+#container section{display:block; width:100%; margin:0; padding:0;}
+#container .last{margin:0;}
+#container .more{text-align:right;}
+
+/* ------Main Content-----*/
+
+#container #homepage{display:block; width:100%; line-height:1.8em;}
+#container #homepage #services article figure img{margin:0 0 15px 0; padding:4px; border:1px solid #D6D6D6;}
+#container #homepage #services article figure h2{font-size:24px;}
+#container #homepage #intro article figure img{float:right; margin:0 0 10px 0; padding:4px; border:1px solid #D6D6D6;}
+#container #homepage #intro article figure figcaption{float:left; width:460px;}
+
+/*----------------------------------------------Contact----------------------------------------*/
+
+
+video {width:800px; height:540px;}
+
+#contact{padding:1px; font-size:12px; line-height:1.4em;}
+
+#contact section h2.title{margin: 0px 0 25px 0; padding:3px 1px 1px 5px; color:#FF9900; background-color:#808080; font-size:22px; 
+text-transform:none;}
+
+#contact section nav li{margin:0 0 5px 0; padding:0 0 5px 0; border-bottom:1px; list-style:none;}
+#contact section nav li.last{margin:0;}
+.map img{display:block; padding:4px; border:1px solid #D6D6D6;} 
+
+/*----------------------------------------------Gallery----------------------------------------*/
+#gallery div, h3, a, ul, li, img,{ margin: 0; padding: 0;}
+
+#gallery article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+.container {width:960px; margin:auto; }
+.container #galleryhead{ background-color:#808080;}
+.container #galleryhead h3{color:#FF9900; text-align:center; padding-top:2px; padding-bottom:2px; font-style:normal; 
+word-spacing: 1px; text-shadow: 1px 1px 1px #000000;}
+
+#content{
+  background:#ECEFF1; 
+  background: linear-gradient(to top #F9F9F9 0%, #FFFFFF 70%, #F9F9F9 100%);
+  background:-webkit-linear-gradient(bottom, #F9F9F9 0%, #FFFFFF 70%, #F9F9F9 100%);
+  padding-top:30px; padding-bottom:30px;  
+  overflow:hidden;  
+}
+
+.gallery{width:1120px; margin:auto 0;}
+.gallery ul{list-style:none;}
+.gallery li{float:left; margin-right:12px; margin-left:-7px; margin-bottom:10px; }
+.gallery img{ padding:1px; border:1px solid #D6D6D6; text-align:center; box-shadow: 1px 1px 2px #000000;}
+.gallery img:hover{border:1px solid #000000;}
+
+#footer {background-color:#FFFFFF; text-align: center;}
+#footer a{color:#FF9900; background-color: #FFFFFF; font-size:22px; padding-top:2px; padding-bottom:2px;}
+#footer a:hover{color:#00A0D4; background-color:#FFFFFF; font-size:22px;}
+
+/*----------------------------------------------Gallery 2----------------------------------------*/
+
+
+.gallery2{width:1120px; margin:auto; text-align: center; position:top; }
+.gallery2 ul{list-style:none;}
+.gallery2 li{float:left; margin:82px;}
+.gallery2 img{padding:2px; border:1px solid #D6D6D6; box-shadow: 1px 1px 2px #000000; float:right; text-align:bottom;}
+.gallery2 img:hover{border:1px solid #333333}
+.paragraph{color:#FF9900}
+
+
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+
+#footer{padding:30px 0; font-size:22px; line-height:1.4em;}
+
+#footer section h2.title{margin:0 0 25px 0; padding:0; color:#FF9900; background-color:#333333; font-size:22px; text-transform:uppercase;}
+
+#footer section nav li{margin:0 0 5px 0; padding:0 0 5px 0; border-bottom:1px}
+#footer section nav li.last{margin:0;}
+
+/*----------------------------------------------Copyright-------------------------------------*/
+
+#copyright{width:1120px; margin:30px padding:20px; }
+#copyright{color:#232323; font-size:20px; text-transform: none;}
+#copyright p{margin:10px; padding: 10px;}
+#copyright b{ margin-top:8px;}
+
+#copyright b #icon .icon{width:1120px;}
+#one{margin-right: 3px; float:right;}
+#one:hover{margin-right: 3px; float:right; background-color:#00A0D4; -webkit-border-radius:100%; box-shadow:0px 1px 1px 2px #000000; }
+#two{margin-right: 3px; float:right;}
+#two:hover{margin-right: 3px; float:right; background-color:#00A0D4; -webkit-border-radius:100%; box-shadow:0px 1px 1px 2px #000000;}
+#tree{margin-right: 3px; float:right;} 
+#tree:hover{margin-right: 3px; float:right; background-color:#00A0D4; -webkit-border-radius:100%; box-shadow:0px 1px 1px 2px #000000;}
+#four{margin-right: 3px; float:right;}
+#four:hover{margin-right: 3px; float:right; background-color:#00A0D4; -webkit-border-radius:100%; box-shadow:0px 1px 1px 2px #000000;}
+#five{margin-right: 3px; float:right;}
+#five:hover{margin-right: 3px; float:right; background-color:#00A0D4; -webkit-border-radius:100%; box-shadow:0px 1px 1px 2px #000000;}
+#six{margin-right: 3px; float:right;}
+#six:hover{margin-right: 3px; float:right; background-color:#00A0D4; -webkit-border-radius:100%; box-shadow:0px 1px 1px 2px #000000;}
+
+
+  /* 
+     -rellenar articulos
+ 
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+<link rel="shortcut icon" href="images/icon.ico" type="image/icon.icon">
+<link rel="icon" href="images/icon.ico" type="image/icon.icon">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<title>Secret Agent</title>
+</head>
+<body>
+  <header id="header" class="clear">
+    <div class="wrapper row6">
+         <h2><a>Top Secret Files</a></h2>
+    </div>
+  </header> 
+<!-- content -->
+<!-- logo -->  
+    
+        <div class="wrapper row4">
+          <div id="container" class="clear">
+            <div id="mainlogo">
+                  <figure><img src="images/originals/weblogo/diana.jpg" width="650" height="650" title="Please write your User and Password">
+                  </figure>
+            </div>
+          </div>
+        </div>
+<!-- logo -->
+<!-- Form-->
+        <div class="wrapper row5">
+          <div id="container" class="clear">
+            <div id="login">
+              <form name="form1">
+                <input type="text" name="txt"><a> User</a><br>
+                <input type="text" name="num"><a> Password</a><br>
+                <input type="button" value="Login" onclick="usrpas()">
+              </form>
+            </div>
+          </div>
+        </div>    
+<!--/ Form-->
+<!-- / Content-->
+<!-- Copyright -->
+    <div id="wrapper row3">
+      <footer id="copyright" class="clear">
+        <p class="fl_left">Copyright &copy; 2016 - All Rights Reserved - <a href="http://www.secretservice.gov/">Secret Agent</a></p>
+          <div id="icon">    
+              <b class="fl_right">  
+              <div id="one"><a href="https://www.skype.com/"><img class="icon" src="images/icon/skype.png"/>
+              </a></div> 
+              <div id="two"><a href="https://www.outlook.com"><img class="icon" src="images/icon/mail.png"/>
+              </a></div> 
+              <div id="tree"><a href="https://www.twitter.com"><img class="icon" src="images/icon/twitter.png"/>
+              </a></div> 
+              <div id="four"><a href="https://www.linkedin.com"><img class="icon" src="images/icon/linkedin.png"/>
+              </a></div> 
+              <div id="five"><a href="https://www.instagram.com"><img class="icon" src="images/icon/instagram.png"/></a></div> 
+              <div id="six"><a href="https://www.facebook.com"><img class="icon" src="images/icon/facebook.png"/>
+              </a></div>  
+              </b>
+          </div> 
+      </footer>
+    </div>
+<!-- /Copyright -->
+  <!-- Script -->
+  <script>
+  // function to check username
+  function usrpas(){
+    if (document.form1.txt.value=="Gilligan" && document.form1.num.value=="Stewart"){window.location="contact.html";return}
+      else {alert("Your account name or password is incorrect.")}
+     }
+  document.oncontextmenu=new Function("return false");
+   </script>
+   <!-- / Script -->
+</body>
+</html>
